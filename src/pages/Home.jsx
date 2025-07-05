@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Home() {
+const Home = ()=> {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-700 ">
         
@@ -58,3 +58,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;

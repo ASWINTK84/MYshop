@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function ProductDetail() {
+const ProductDetail = ()=> {
   const { id } = useParams();
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
@@ -128,3 +128,4 @@ export default function ProductDetail() {
     </div>
   );
 }
+export default ProductDetail;

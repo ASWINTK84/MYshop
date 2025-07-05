@@ -17,7 +17,7 @@ A React frontend app
  React icon
  Dummy api
 
-//Setup
+//Setupf
 
 1- cd MYshop-main
 2- npm i

@@ -4,7 +4,7 @@ import ProductCard from "../components/ProductCard";
 import { FaSearch } from "react-icons/fa";
 import { FiFilter } from "react-icons/fi";
 
-export default function Shop() {
+const Shop = ()=> {
   const {filteredProducts,categories,selectedCategory,setSelectedCategory,sortOrder,setSortOrder,loading,searchTerm,setSearchTerm,} = useContext(ProductContext);
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -191,3 +191,4 @@ export default function Shop() {
     </div>
   );
 }
+export default Shop;

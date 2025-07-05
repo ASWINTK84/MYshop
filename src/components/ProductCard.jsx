@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import Button from "react-bootstrap/Button";
 
-export default function ProductCard({ product }) {
+const ProductCard =({ product })=> {
 
 console.log("ProductCard", product);
 
@@ -44,3 +44,4 @@ console.log("ProductCard", product);
     </div>
   );
 }
+export default ProductCard;
