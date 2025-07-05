@@ -9,6 +9,7 @@ export default function Shop() {
 
   const [currentPage, setCurrentPage] = useState(1);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
+  
   const itemsPerPage = 9;
 
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
