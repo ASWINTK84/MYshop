@@ -1,22 +1,21 @@
 // React.js Coding Challenge
 
-A React frontend app built with Vite and Tailwind CSS.
+A React frontend app
 
 // Features
 
- Tailwind CSS  for styling
- React Router
- React icon
  Responsive
  Filters(Price,Category) , search and product details
 
+\
 // Used
 
  React
  Tailwind CSS
  Axios
  React Router DOM
-
+ React icon
+ Dummy api
 
 //Setup
 
