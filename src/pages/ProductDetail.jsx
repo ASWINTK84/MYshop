@@ -114,7 +114,7 @@ export default function ProductDetail() {
                     </div>
                     <p className="text-gray-600 text-sm italic mb-2 flex-1">"{review.comment}"</p>
                     <p className="text-xs text-gray-400 mt-2">
-                        Reviewed on {new Date(review.date).toLocaleDateString()}
+                        Reviewed on {review.date}
                     </p>
                     </div>
                 ))}
