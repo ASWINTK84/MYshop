@@ -1,4 +1,4 @@
-// Vite React Project
+// React.js Coding Challenge
 
 A React frontend app built with Vite and Tailwind CSS.
 
